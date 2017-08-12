@@ -1,0 +1,1265 @@
+body { background: url("../images/images.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font: 14px/25px Arial, Helvetica, sans-serif;}
+
+
+.container {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container .progress {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar:before, .progress-bar:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five:checked ~ .progress > .progress-bar {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive:checked ~ .progress > .progress-bar {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty:checked ~ .progress > .progress-bar {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive:checked ~ .progress > .progress-bar {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred:checked ~ .progress > .progress-bar {
+  width: 100%;
+  background-color: #86e01e;
+}
+.radio {display: none;}
+.label {
+  display: inline-block;
+  margin: 0 5px 20px;
+  padding: 3px 8px;
+  color: #aaa;
+  text-shadow: 0 1px black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.radio:checked + .label {color: white;background: rgba(0, 0, 0, 0.25);}
+
+.container1 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container1 .progress1 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress1 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar1 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar1:before, .progress-bar1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar1:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar1:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five1:checked ~ .progress1 > .progress-bar1 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive1:checked ~ .progress1 > .progress-bar1 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty1:checked ~ .progress1 > .progress-bar1 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive1:checked ~ .progress1 > .progress-bar1 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred1:checked ~ .progress1 > .progress-bar1 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+.container2 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container2 .progress2 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress2 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar2 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar2:before, .progress-bar2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar2:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar2:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five2:checked ~ .progress2 > .progress-bar2 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive2:checked ~ .progress2 > .progress-bar2 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty2:checked ~ .progress2 > .progress-bar2 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive2:checked ~ .progress2 > .progress-bar2 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred2:checked ~ .progress2 > .progress-bar2 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+.container12 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container12 .progress12 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress12 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar12 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar12:before, .progress-bar12:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar12:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar12:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five12:checked ~ .progress12 > .progress-bar12 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive12:checked ~ .progress12 > .progress-bar12 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty12:checked ~ .progress12 > .progress-bar12 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive12:checked ~ .progress12 > .progress-bar12 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred12:checked ~ .progress12 > .progress-bar12 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+.container3 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container3 .progress3 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress3 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar3 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar3:before, .progress-bar3:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar3:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar3:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five3:checked ~ .progress3 > .progress-bar3 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive3:checked ~ .progress3 > .progress-bar3 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty3:checked ~ .progress3 > .progress-bar3 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive3:checked ~ .progress3 > .progress-bar3 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred3:checked ~ .progress3 > .progress-bar3 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+.container13 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container13 .progress13 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress13 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar13 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar13:before, .progress-bar13:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar13:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar13:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five13:checked ~ .progress13 > .progress-bar13 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive13:checked ~ .progress13 > .progress-bar13 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty13:checked ~ .progress13 > .progress-bar13 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive13:checked ~ .progress13 > .progress-bar13 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred13:checked ~ .progress13 > .progress-bar13 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container4 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container4 .progress4 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress4 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar4 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar4:before, .progress-bar4:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar4:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar4:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five4:checked ~ .progress4 > .progress-bar4 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive4:checked ~ .progress4 > .progress-bar4 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty4:checked ~ .progress4 > .progress-bar4 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive4:checked ~ .progress4 > .progress-bar4 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred4:checked ~ .progress4 > .progress-bar4 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+.container14 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container14 .progress14 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress14 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar14 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar14:before, .progress-bar14:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar14:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar14:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five14:checked ~ .progress14 > .progress-bar14 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive14:checked ~ .progress14 > .progress-bar14 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty14:checked ~ .progress14 > .progress-bar14 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive14:checked ~ .progress14 > .progress-bar14 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred14:checked ~ .progress14 > .progress-bar14 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container5 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container5 .progress5 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress5 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar5 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar5:before, .progress-bar5:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar5:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar5:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five5:checked ~ .progress5 > .progress-bar5 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive5:checked ~ .progress5 > .progress-bar5 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty5:checked ~ .progress5 > .progress-bar5 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive5:checked ~ .progress5 > .progress-bar5 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred5:checked ~ .progress5 > .progress-bar5 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+.container15 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container15 .progress15 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress15 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar15 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar15:before, .progress-bar15:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar15:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar15:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five15:checked ~ .progress15 > .progress-bar15 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive15:checked ~ .progress15 > .progress-bar15 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty15:checked ~ .progress15 > .progress-bar15 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive15:checked ~ .progress15 > .progress-bar15 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred15:checked ~ .progress15 > .progress-bar15 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container6 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container6 .progress6 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress6 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar6 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar6:before, .progress-bar6:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar6:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar6:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five6:checked ~ .progress6 > .progress-bar6 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive6:checked ~ .progress6 > .progress-bar6 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty6:checked ~ .progress6 > .progress-bar6 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive6:checked ~ .progress6 > .progress-bar6 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred6:checked ~ .progress6 > .progress-bar6 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+.container16 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container16 .progress16 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress16 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar16 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar16:before, .progress-bar16:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar16:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar16:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five16:checked ~ .progress16 > .progress-bar16 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive16:checked ~ .progress16 > .progress-bar16 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty16:checked ~ .progress16 > .progress-bar16 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive16:checked ~ .progress16 > .progress-bar16 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred16:checked ~ .progress16 > .progress-bar16 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container7 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container7 .progress7 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress7 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar7 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar7:before, .progress-bar7:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar7:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar7:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five7:checked ~ .progress7 > .progress-bar7 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive7:checked ~ .progress7 > .progress-bar7 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty7:checked ~ .progress7 > .progress-bar7 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive7:checked ~ .progress7 > .progress-bar7 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred7:checked ~ .progress7 > .progress-bar7 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+.container17 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container17 .progress17 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress17 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar17 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar17:before, .progress-bar17:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar17:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar17:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five17:checked ~ .progress17 > .progress-bar17 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive17:checked ~ .progress17 > .progress-bar17 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty17:checked ~ .progress17 > .progress-bar17 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive17:checked ~ .progress17 > .progress-bar17 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred17:checked ~ .progress17 > .progress-bar17 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container8 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container8 .progress8 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress8 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar8 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar8:before, .progress-bar8:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar8:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar8:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five8:checked ~ .progress8 > .progress-bar8 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive8:checked ~ .progress8 > .progress-bar8 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty8:checked ~ .progress8 > .progress-bar8 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive8:checked ~ .progress8 > .progress-bar8 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred8:checked ~ .progress8 > .progress-bar8 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+.container18 {
+  margin: 10px auto;
+  width: 640px;
+  text-align: center;
+}
+.container18 .progress18 {
+  margin: 0 auto;
+  width: 400px;
+}
+.progress18 {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar18 {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progress-bar18:before, .progress-bar18:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.progress-bar18:before {
+  bottom: 0;
+  background: url("../img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+.progress-bar18:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+#five18:checked ~ .progress18 > .progress-bar18 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+#twentyfive18:checked ~ .progress18 > .progress-bar18 {
+  width: 25%;
+  background-color: #f27011;
+}
+#fifty18:checked ~ .progress18 > .progress-bar18 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+#seventyfive18:checked ~ .progress18 > .progress-bar18 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+#onehundred18:checked ~ .progress18 > .progress-bar18 {
+  width: 100%;
+  background-color: #86e01e;
+}

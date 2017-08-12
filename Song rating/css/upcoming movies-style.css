@@ -1,0 +1,24 @@
+a{color: #4C4C4C;text-decoration: none;}
+a:hover { text-decoration: none;}
+
+h1, h2, h3, h4{	font-size: 25px;line-height: 25px;}
+
+.left{float: left!important;}
+.right{float: right!important;}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix{}
+.clearfix:after, .clearfix:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Html-Body------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html, body {width:100%; padding:0; margin:0;}
+body { background: url("../images/images.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font: 14px/25px Arial, Helvetica, sans-serif;}
+
+body .wrap-body{}
+
+blockquote{padding-left: 10px}
+blockquote, q{quotes: none;}
+
+code{font-size: 1em;}

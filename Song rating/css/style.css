@@ -1,0 +1,202 @@
+@charset "utf-8";
+body {
+  text-align: center;
+  font-family: Arial;
+  margin:0; padding:0; width:100%;
+ background: url("../images/images.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font: 14px/25px Arial, Helvetica, sans-serif;
+
+ }
+
+/* main */
+.main { width:100%; padding:0; margin:0 auto; }
+
+
+/********** header **********/
+.header { background: url(images/header_bg.gif) top repeat-x; padding:0; margin:0 auto; height:133px; }
+.header img { float:right; padding:20px 0 0 0; margin:0;}
+.block_header { margin:0 auto; width:960px; padding:0; border:none; }
+
+/* logo */
+.logo { float:left; padding:0; margin:0; width:221px; }
+.logo img { float:none; padding:0; margin:0;}
+/* menu */  
+.menu { float:left; padding:5px 0 0 0; margin:0; width:580px; }
+.menu ul { text-align: left; padding:0; margin:0; list-style:none; border:0; float:left; }
+.menu ul li { float:left; margin:0; padding:0 10px; border:0; }
+.menu ul li a { float:left; margin:0; padding:13px 0; color:#a0a0a0; font:normal 11px Arial, Helvetica, sans-serif; text-decoration:none; }
+.menu ul li a span { padding:13px 20px; background:none; }
+.menu ul li a:hover { color:#e0dfdf; background: url(images/r_menu.gif) no-repeat right; }
+.menu ul li a:hover span { color:#e0dfdf; background:url(images/l_menu.gif) no-repeat left; }
+.menu ul li a.active { color:#e0dfdf;  background:url(images/r_menu.gif) no-repeat right; }
+.menu ul li a.active span { color:#e0dfdf; background:url(images/l_menu.gif) no-repeat left; }
+
+
+.buttons {
+  margin-top: 110px;
+}
+.buttons a {
+  margin-right: 30px;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  position: relative;
+  line-height: 64px;
+  background-color: #eaeaea;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+  background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+  background-image: -moz-linear-gradient(top, #f6f6f6, #eaeaea); 
+  background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea); 
+  background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
+  background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+  border-radius: 32px;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+.buttons a:active {
+  top: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#f6f6f6));
+  background-image: -webkit-linear-gradient(top, #eaeaea, #f6f6f6);
+  background-image: -moz-linear-gradient(top, #eaeaea, #f6f6f6); 
+  background-image: -ms-linear-gradient(top, #eaeaea, #f6f6f6); 
+  background-image: -o-linear-gradient(top, #eaeaea, #f6f6f6);
+  background-image: linear-gradient(top, #eaeaea, #f6f6f6);
+}
+
+.buttons a::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    background-color: #eaeaea;
+    -moz-border-radius: 140px;
+    -webkit-border-radius: 140px;
+    border-radius: 140px;
+  opacity: 0.5;   
+}
+
+.buttons a:active::before {
+  top: -9px;
+}
+
+.buttons a:hover::before { opacity: 1; }
+
+.buttons a.twitter:hover::before {
+  background-color: #c6f0f8;
+}
+
+.buttons a.facebook:hover::before {
+  background-color: #dae1f0;
+}
+
+.buttons a.dribble:hover::before {
+  background-color: #fadae6;
+}
+
+.buttons a.rss:hover::before {
+  background-color: #f8ebb6;
+}
+
+.twitter img { vertical-align: -7px; }
+.dribble img { vertical-align: -12px; }
+.facebook img { vertical-align: -12px;}
+.rss img { vertical-align: -7px;}
+
+.buttons a img { border: 0; }
+
+
+.footer {
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #cdcdcd;
+  text-shadow: 1px 2px 0 #fff;
+}
+.footer a { color: #bebebe; text-decoration: none; }
+.footer a:hover { color: #bebebe; text-decoration: none; border-bottom: 1px dashed #cdcdcd; }
+
+/*----------------------------------------*/
+
+#site_content { 
+  width: 960px;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 15px 0 15px 0;
+}
+
+/* Image Transitions */
+
+ul#images {
+  margin: 0 15px 10px 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+ul#images li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  width: 155px;
+  height: 300px;
+}
+/* Framework for proper showing/hiding/positioning */
+
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+ul.sf-menu { 
+  display: block;
+  position: relative;
+}
+  ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+} 
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
