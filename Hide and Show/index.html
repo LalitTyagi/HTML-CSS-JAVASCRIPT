@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fracktal Works</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+
+    <div class = "header">
+      <nav class="navbar-default bg-white">
+        <div class="container-fluid">
+          <div class="navbar-collapse" id="navbar">
+            <ul class="nav navbar-collapse">
+              <li>
+                <a  href="#">
+                  <img src="images/Mask Group 1@2x.png" width="160" height="85" alt="Fractory">
+                  </a>
+              </li>
+              <li id = "menu"><a href="#">Services</a></li>
+              <li id = "menu"><a href="#">How it's mades</a></li>
+              <li id = "menu"><a href="#">Storiess</a></li>
+              <li id = "menu"><a href="#">Contacts</a></li>
+              <li id = "login">
+                <ul class="nav navbar-collapse navbar-right">
+                   <li id = "login1"><a href="#" onclick="loginFunction()">Sign In</a></li>
+                   <li id = "login1"><a href="#" onclick="loginFunction()">Register</a></li>
+                </ul>
+              </li>
+              </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    
+    <div class="home">
+      <div class="row">
+        <div class="col-8">
+          <div class="row-8" style="margin-left:85px;margin-top:25px">
+            <video width="700" height="500" controls>
+              <source src="video/video.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+          <div class="row-4" id="info">
+              <p>The Future of digital <div class="slidingVertical">
+                                        <span><b>Manufacturing</b></span>
+                                        <span><b>Creating</b></span>
+                                        <span><b>Making</b></span>
+                                        <span><b>Innovating</b></span>
+                                      </div>
+              <p id="infoHere">is here<p>
+              <p>Bring your idea to life by simply uploading a file, instantly submitting</p>
+              <p>your order and receiving your parts within days.</p>
+               
+            </p>
+          </div>
+
+        </div>
+        <div class="col-4">
+          <div class="wrapper" id="showLogin" style="display:none;">
+            <form class="form-signin">       
+              <center >
+                <h2 class="form-signin-heading" onclick="myFunction()">Make now</h2>
+                <hr>
+                <br/>
+              </center>
+              <div class = "inputForm" id="hide">
+                <input type="text" class="form-control" name="username" placeholder="Email id" required="" autofocus="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+                <button class="btn btn-lg btn-block button" type="submit">Sign in to make!</button>   
+                <br/>
+                <hr>
+                <br/>
+                <p>Sign up to make</p>
+                <br/>
+                <br/>
+                <p>Terms and conditions:</p>
+                <p>chips sustainable taiyaki scenester yr</p>
+                <p>cliche polaroid. Mixtape put a bird on it</p>
+                <p>heirlomo schlitz raw denim trust fund</p>
+                <p>edison bulb. Cray ennui kinfolk, locavore</p>
+                <p>bicycle rights iceland taxidermy beard</p>
+              </div>
+              
+
+              <div id="show" style="display:none;">
+                <input type="text" class="form-control" name="f_name" placeholder="First name" required="" autofocus="" />
+                <input type="text" class="form-control" name="l_name" placeholder="Last name" required=""/> 
+                <input type="text" class="form-control" name="username" placeholder="Email id" required="" autofocus="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required=""/> 
+                <input type="password" class="form-control" name="password" placeholder="Re-Type Password" required=""/> 
+                <br/>
+                <input type="text" class="form-control" name="city" placeholder="City" required=""/> 
+                <br/>
+                <input type="text" class="form-control" name="coupon" placeholder="Coupon code (optional)" required=""/> 
+                <br/>
+                <button class="btn btn-lg btn-block" type="submit">Sign in to make!</button> 
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "echopark">
+      <img class="mainImage" src="images/IMG_-1@2x.png" alt="test">
+      <div class="subImage1">
+        <img src="images/Group 38@2x.png" alt="test"  height="200" width="300">
+        <div id = "subData">
+          <span>Get instant quote</span><br/>
+          <span>Just upload your 3D</span><br/>
+          <span>file and instanty</span><br/>
+          <span>get prices</span><br/>
+        </div>
+      </div>
+      <div class="subSubImage1">
+        <img src="images/Group 51@2x.png" alt="test"  height="80" width="90">
+      </div>
+
+
+      <div class="subImage2">
+        <img src="images/Group 38@2x.png" alt="test"  height="200" width="300">
+        <div id = "subData">
+          <span>Design Feedback</span><br/>
+          <span>four dollar toast scenster</span><br/>
+          <span>pickled meggings sartorial</span><br/>
+          <span>twee ennui</span><br/>
+        </div>
+      </div>
+      <div class="subSubImage2">
+        <img src="images/cubes.png" alt="test"  height="80" width="90">
+      </div>
+      <div class="subMark">
+        <img src="images/Group 43@2x.png" alt="test"  height="40" width="40">
+      </div>
+
+
+      <div class="subImage3">
+        <img src="images/Group 38@2x.png" alt="test"  height="200" width="300">
+        <div id = "subData">
+          <span>Fast delivery</span><br/>
+          <span>four loko disrupt shaman</span><br/>
+          <span>singlr-orgin coffee brunch</span><br/>
+          <span>bushwick tacos</span><br/>
+        </div>
+      </div>
+      <div class="subSubImage3">
+        <img src="images/box-1.png" alt="test"  height="80" width="90">
+      </div>
+
+
+
+
+      <div class = "seeHowItWorks">
+        <button>See how it works</button><br/><br/>
+        <span><h3>Echo park shoreditch occupy</h3></span><br/>
+          <span>chips sustainable taiyaki scenester yr</span><br/>
+          <span>cliche polaroid. Mixtape put a bird on</span><br/>
+          <span>it heirlomo schlitz raw denim trust</span><br/>
+          <span>fund edison bulb. Cray ennui kinfolk,</span><br/>
+          <span>locavore bicycle rights iceland</span><br/><br/>
+          <hr>
+      </div>
+    </div>
+    
+    <div class = "readStories">
+      <img src="images/Group 41@2x.png" alt="test">
+      <div class="stories">
+        <h4>Cray ennui Kinfolk</h4>
+        <span>chips sustainable taiyaki scenester yr cliche polaroid.</span><br/>
+        <span>Mixtape put a bird on it heirlomo schlitz raw denim</span><br/>
+        <span>trust funcd edison bulb.</span><br/><br/>
+        <button>Read Stories</button>
+      </div>
+    </div>
+
+    <div class = "client">
+      <div class="row">
+        <h3 id ="clientParttner">Our Clients</h3>
+      </div>
+      <div class="row">
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/Toshiba-Logo@2x.png">
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/Cisco-Logo-HD-1@2x.png">
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/L_T-1.png">
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/Sabic-Logo-1.png">
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/loreal-logo-font@2x.png">
+            </a>
+        </div>
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="client_img" src="images/CMR-JPG-1@2x.png">
+            </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class = "partner">
+      <div class="row">
+        <h3 id ="clientParttner">Solution Partner</h3>
+      </div>
+      <div class="row">
+        <div class="col-xs-1">
+            <a href="#" class="thumbnail">
+                <img class="partner_img" src="images/1000px-Siemens-logo.svg.png">
+            </a>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- Footer -->
+  <footer class="page-footer">
+      <div class="footer">
+        <br/>
+        <div class="row">
+          <div class="col l2">
+            <h5 class="white-text">Company</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l2">
+            <ul>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Download</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Careers</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Blog</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Press Room</a>
+              </li>  
+            </ul>
+          </div>
+          <div class="col l2">
+            <ul>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">About</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Support</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Partners</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Support</a>
+              </li>  
+            </ul>
+          </div>
+          <div class="col l2">
+            <ul>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Privacy</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Terms</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Accessibility</a>
+              </li>
+              <li>
+                <a class="white-text text-lighten-3" href="#!">Press Room</a>
+              </li>  
+            </ul>
+          </div>
+          <div class="col l2">
+            <ul>
+              <li>
+                <br/>
+                <a class="white-text text-lighten-3" href="#!">Connect with us:</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br/>
+  </footer>
+
+<script>
+function myFunction() {
+  console.log("click")
+    var loginBlock = document.getElementById('show');
+    var signupBlock = document.getElementById('hide');
+    if (loginBlock.style.display === 'none') {
+        loginBlock.style.display = 'block';
+        signupBlock.style.display = 'none';
+    } else {
+        loginBlock.style.display = 'none';
+        signupBlock.style.display = 'block';
+    }
+}
+
+function loginFunction()
+{
+  console.log("click");
+  var loginForm = document.getElementById('showLogin');
+    if (loginForm.style.display === 'none') {
+        loginForm.style.display = 'block';
+    } 
+  }
+</script>
+           
+  </body>
+</html>
