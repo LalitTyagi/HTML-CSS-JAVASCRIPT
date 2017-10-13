@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="css/contact.css" type="text/css" media="all" />
+</head>
+<body>
+	<nav class="nav">
+	  <a class="nav-link active" href="index.html">Home</a>
+	  <a class="nav-link" href="#">People</a>
+	  <a class="nav-link" href="contact.html">Contact</a>
+	</nav>
+	<div class="contactForm">
+		<h1>WE WOULD LOVE TO HEAR FROM YOU</h1>
+		<div class="content" id="show" style="display:hide;">
+			<form action="#" medthod="post">
+				<div class="info">
+					<div class="w3l-left-grid">
+						<input type="text" name="name" placeholder="First name" required=""  />
+						<input type="email" name="email" placeholder="Your email address" required=""/>
+					</div>
+					<div class="w3l-left-grid w3-ls">
+						<input type="text" name="name" required="" placeholder="Last name"/>
+						<input type="number" name="phone" placeholder="Your phone number(optional)"/>					
+					</div>
+				</div>
+				<textarea id="message" name="message" placeholder="Your Message......." required=""></textarea>
+				<div class="submitButton">
+					<input type="submit" value="Send" onclick="myFunction()">
+				</div>
+			</form>
+		</div>
+	</div> 
+	<div class="submitted" id=style="display:none;">
+		<p>Thank you, we have received your message.</p>
+	</div>
+	<div class="error" id="error" style="display:none;">
+		<p>Please complete the form and try again</p>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

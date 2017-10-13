@@ -1,0 +1,184 @@
+body{
+	background:url(../images/Feed_bg.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.contactForm {
+    padding: 2em 0;
+}
+.contactForm h1{
+    text-align: center;
+    margin: 0 0 1em 0;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+}
+.content{
+	padding: 2em 2em;
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.075);
+    text-align: center;
+}
+
+.error{
+	margin-bottom: 1rem;
+    text-align: center;
+    background: rgba(0,0,0,0.07);
+    width: 387px;
+    margin-left: 475px;
+    margin-top: -414px;
+}
+}
+.submitted{
+	margin-bottom: 1rem;
+    text-align: center;
+    background: rgba(0,0,0,0.07);
+    width: 387px;
+    margin-left: 475px;
+    margin-top: -10px;
+}
+.w3l-left-grid {
+	width: 46%;
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+.w3l-left-grid.w3-ls {
+    margin-left: 6%;
+}
+.w3l-left-grid.center.banner {
+	display: block;
+    margin-bottom: 5px;
+}
+input, button{
+    color: #FFFFFF;
+    margin: 0em 0;
+    letter-spacing: 2px;
+}
+input{
+	width: 10px;
+}
+textarea, input[type="text"],input[type="number"], input[type="email"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    font-size: x-small;
+    margin: 1em 0;
+    line-height: 18px;
+    width: 100%;
+    color: #999999;	
+
+}
+textarea{
+	min-height:120px;
+    width:98%;
+	padding: 4px;
+	resize: none;
+}
+.info{
+	text-align:left;
+	margin-left: 6px;
+    margin-right: -3px;
+}
+.submitButton{
+	text-align:center;
+}
+.submitButton input[type="submit"] {
+	font-size: .9em;
+    color: #fff;
+    background: #ff4d4d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .6em 1em;
+	text-transform: uppercase;
+	width: 150px;
+	border-radius: 25px;
+    -webkit-appearance: none;
+}
+
+@media(max-width:1366px){
+	.content {
+		width: 43%;
+	}
+}
+@media(max-width:768px){
+	.contactForm h1 {
+	}
+	label, input, button, select, textarea {
+
+	}
+}
+
+@media(max-width:667px){
+	.content {
+		width: 71%;
+	}
+	.contactForm h1 {
+		font-size: 2em;
+	}
+}
+@media(max-width:640px){
+	.content {
+		width: 80%;
+	}
+}
+@media(max-width:568px){
+	.content {
+		width: 85%;
+	}
+}
+@media(max-width:480px){
+	.w3l-left-grid {
+		width: 100%;
+		float: none;
+	}
+	.w3l-left-grid.w3-ls {
+    margin-left: 0%; 
+    margin-top: -122px;
+
+	}
+	textarea, input[type="text"],input[type="number"], input[type="email"], .uneditable-input {
+	margin-bottom: 40px;
+    width: 97%;
+	}
+	textarea {
+    width: 97%;
+    resize: none;
+	}
+}
+
+@media(max-width:414px){
+	.w3l-left-grid {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	.content {
+		width: 70%;
+		padding: 2em;
+	}
+	textarea, input[type="text"],input[type="number"], input[type="email"], .uneditable-input {
+		width: 96%;
+	}
+	.submitButton {
+		padding: 0;
+		text-align: center;
+	}
+	.content p {
+    margin-bottom: 0.5em;
+    line-height: 22px;
+	}
+}
+
+@media(max-width:320px){
+	.contactForm h1 {
+		font-size: 1.5em;
+	}
+	.content {
+    	width: 80%;
+    	padding: 2em 1em;
+	}
+}
