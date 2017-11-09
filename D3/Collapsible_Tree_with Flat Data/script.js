@@ -1,12 +1,12 @@
 ﻿var data = [
-    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"APS","name":"Anu" },
-    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"IPS","name":"Renu" },
-    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"APS","name":"Menu" },
-    { "state": "MP", "district": "Bhopal", "block": "chota_Bhopal","school":"DPS","name":"Samridhi" },
-    { "state": "UP", "district": "Mathura", "block": "Farah","school":"HPS","name":"Kanika" },
-    { "state": "UP", "district": "Kanpur", "block": "Mania","school":"BPs","name":"Himanshi" },
-    { "state": "UP", "district": "Agra", "block": "Arjun Nagar","school":"GPS","name":"Anjali" }, 
-    { "state": "MP", "district": "Gwalior", "block": "Surya Nagar","school":"DPS","name":"Simran" }
+    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"APS","name":"A" },
+    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"IPS","name":"B" },
+    { "state": "UP", "district": "Agra", "block": "IradatNagar","school":"APS","name":"C" },
+    { "state": "MP", "district": "Bhopal", "block": "chota_Bhopal","school":"DPS","name":"D" },
+    { "state": "UP", "district": "Mathura", "block": "Farah","school":"HPS","name":"E" },
+    { "state": "UP", "district": "Kanpur", "block": "Mania","school":"BPs","name":"F" },
+    { "state": "UP", "district": "Agra", "block": "Arjun Nagar","school":"GPS","name":"G" }, 
+    { "state": "MP", "district": "Gwalior", "block": "Surya Nagar","school":"DPS","name":"H" }
 ];
 
 var newData = { name :"State", children : [] },
